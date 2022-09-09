@@ -1133,10 +1133,11 @@ a:focus {
     max-width: 1520px;
 }
 
-/* #site-header .site-header-inner {
-    padding: 0 190px 0 191px;
-    justify-content: space-between;
-} */
+#site-header .site-header-inner {
+    //padding: 0 190px 0 191px;
+    //justify-content: space-between;
+	height: 190px;
+} 
 
 #site-header .site-header-inner.st-2 {
     padding: 1px 0 10px;
@@ -1323,7 +1324,7 @@ a:focus {
 #mainnav .menu > li > a {
 	display: inline-block;
 	padding: 0;
-	line-height: 98px;
+	line-height: 58px;
 }
 
 #mainnav .menu li a {
@@ -1374,7 +1375,7 @@ a:focus {
 	z-index: 9999;
 	position: absolute;
 	top: 100%;
-	width: 200px;
+	width: 300px;
 	border-radius: 5px;
 	background-color: #fff;
 	box-shadow: 2px 6px 23px var(--primary-color4);
@@ -1415,8 +1416,14 @@ a:focus {
     display: block;
     line-height: 45px;
     padding: 0px 0px 0px 15px;
-    width: 200px;
+    width: 350px;
     text-transform: capitalize;
+}
+.menu{
+	//margin-top: 40px;
+}
+.my_table{
+	margin-top: 35px;
 }
 
 #mainnav .menu > li > .sub-menu > li:last-child > a {
@@ -1673,7 +1680,7 @@ a:focus {
     position: absolute;
     left: 100%;
     top: 0;
-    width: 200px;
+    width: 500px;
     border-radius: 5px;
     background-color: #fff;
     box-shadow: 1px 3px 10px var(--primary-color4);
