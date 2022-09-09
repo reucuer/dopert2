@@ -1424,6 +1424,14 @@ a:focus {
 }
 .my_table{
 	margin-top: 35px;
+	font-size:24px;
+}
+.myOl{
+	margin-left: 75px;
+	font-size:24px;
+}
+.myOl li{
+	list-style-type: decimal;
 }
 
 #mainnav .menu > li > .sub-menu > li:last-child > a {
