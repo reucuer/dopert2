@@ -819,7 +819,6 @@ h6 {
 	float:left;
 }
 .LiClass li{
-	//list-style-position: inside;
 	//float: left;
 	
 	
@@ -833,10 +832,9 @@ h6 {
     border-radius: 10px;
     -webkit-transition: all 0.3s ease;
 	-moz-transition: all 0.3s ease;
-	transition: all 0.3s ease;
 	-ms-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
-	
+	transition: all 0.3s ease;
 }
 
 .fl-scale:hover .inner-scale img {
@@ -1451,13 +1449,11 @@ a:focus {
 #VideoAlb{
 	margin-top: 50px;
 }
-#InVid{
-	margin:0 auto;
-}
-#InVid video{
+.InVid{
 	//display: inline;
 	//float: right;
 	margin-right: 10px;
+	margin-bottom: 0px;
 }
 #mainnav .menu > li.menu-item-has-children.current-menu-item > a::after,
 #mainnav .menu > li.menu-item-has-children.active > a::after,
@@ -1955,6 +1951,9 @@ a:focus {
 }
 
 .widget-quote .box-content {
+    text-align: center;
+}
+.box-content2 {
     text-align: center;
 }
 
