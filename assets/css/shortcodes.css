@@ -1835,6 +1835,9 @@
 }
 
 .sc-gallery.mg-bt {
+    margin-bottom: 30px;
+}
+.sc-gallery.mg-bb {
     margin-bottom: 0px;
 }
 
@@ -1903,6 +1906,8 @@
 	-o-transition: all 0.3s ease;
 	transition: all 0.3s ease;
 }
+
+
 
 .tf-galley .title {
     text-transform: capitalize;

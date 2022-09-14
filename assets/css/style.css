@@ -1412,6 +1412,11 @@ a:focus {
 	transform: translateY(0px);
 }
 
+.prim{
+    visibility: hidden;
+}
+
+
 #mainnav .menu > li > .sub-menu > li > a {
     display: block;
     line-height: 45px;
@@ -1419,16 +1424,52 @@ a:focus {
     width: 350px;
     text-transform: capitalize;
 }
+.a_class{
+	max-height: 100%;
+	//max-width: 300px;
+	text-align: center;
+
+}
+/*.b_class{
+	//width: 20%;
+	display: table;
+}*/
+
 .menu{
 	//margin-top: 40px;
 }
 .my_table{
 	margin-top: 35px;
 	font-size:24px;
+	
+}
+.my_table1 td{
+	text-align: center;
+}
+.ab{
+	text-align: center;
+	Width: 10%;
+	
+}
+.my_table1 th{
+	text-align: center;
+	
+}
+.my_table1{
+	//width: 1500px;
+	margin-bottom: 70px;
+}
+.dvad{
+	width: 20%;
 }
 .myOl{
 	margin-left: 75px;
 	font-size:24px;
+	min-height: 200px;
+	margin-bottom: 50px;
+}
+.unknownHeight{
+	min-height: 200px;
 }
 .myOl li{
 	list-style-type: decimal;
